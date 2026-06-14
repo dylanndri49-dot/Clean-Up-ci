@@ -1,0 +1,7 @@
+echo "# Clean-Up-ci" >> README.md 
+git init 
+git add README.md 
+git commit -m "premier commit" 
+git branch -M main 
+git remote add origin https://github.com/dylanndri49-dot/Clean-Up-ci.git
+ git push -u origin main
